@@ -197,6 +197,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ISO55KController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -210,6 +211,17 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\images %281%29.jpg" />
+    <Content Include="Content\Images\images %282%29.jpg" />
+    <Content Include="Content\Images\images.jpg" />
+    <Content Include="Content\Images\img_Computer.jpg" />
+    <Content Include="Content\Images\img_consult.jpg" />
+    <Content Include="Content\Images\img_Gears.jpg" />
+    <Content Include="Content\Images\img_GlassBuilding.jpg" />
+    <Content Include="Content\Images\img_serverroom.jpg" />
+    <Content Include="Content\Images\img_Ship.jpg" />
+    <Content Include="Content\Images\img_Tag.jpg" />
+    <Content Include="Content\Images\img_trees.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -242,9 +254,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
@@ -265,6 +274,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\ISO55K\ISO55K.cshtml" />
+    <Content Include="Views\Home\ISO55K.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
