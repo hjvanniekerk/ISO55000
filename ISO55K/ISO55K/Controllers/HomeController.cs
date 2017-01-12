@@ -26,5 +26,11 @@ namespace ISO55K.Controllers
 
             return View();
         }
+        public ActionResult ISO55K()
+        {
+            ViewBag.Message = "ISO55K-R3";
+
+            return View();
+        }
     }
 }

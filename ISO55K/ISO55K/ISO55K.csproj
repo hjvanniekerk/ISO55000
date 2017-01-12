@@ -279,6 +279,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\ISO55K\ISO55K.cshtml" />
     <Content Include="Views\Home\ISO55K.cshtml" />
+    <Content Include="Views\ISO55K\Index.cshtml" />
+    <Content Include="Views\ISO55K\RFI.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

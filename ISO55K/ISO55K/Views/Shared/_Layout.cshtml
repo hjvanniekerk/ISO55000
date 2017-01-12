@@ -1,13 +1,24 @@
 ﻿<!DOCTYPE html>
 <html>
+
+<div class="jumbotron">
+    <center><h4>Expert Guidance Every Step of the Way</h4></center>
+    <center><h1 style="color:blue;">EBX Engineering</h1></center>
+    <center><h4>ISO55K Asset Management and QR RFID Asset tagging</h4></center>
+
+</div>
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - EBX</title>
+
+    @RenderSection("metatags", required: false)
+
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-
 </head>
+
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -34,7 +45,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - EBX Asset Management</p>
+            <p> @DateTime.Now.Year - EBX Asset Management & Engineering</p>
         </footer>
     </div>
 
@@ -42,4 +53,5 @@
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
+
 </html>

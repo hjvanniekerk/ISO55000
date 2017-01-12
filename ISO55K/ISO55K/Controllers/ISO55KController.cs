@@ -13,5 +13,9 @@ namespace ISO55K.Controllers
         {
             return View();
         }
+        public ActionResult RFI()
+        {
+            return View();
+        }
     }
 }
